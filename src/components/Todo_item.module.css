@@ -1,0 +1,32 @@
+.todoitem{
+    width: 500px;
+    color: #353935;
+    font-size: 20px;
+    margin: 0 auto;
+    
+}
+.todoitem:hover{
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.todoitem_name{
+    font-weight: bold;
+    color: #9c22ff;
+    padding: 10px;
+}
+.todoitem_line{
+    width: 100%;
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 10px 0;
+}
+.delete_button{
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
